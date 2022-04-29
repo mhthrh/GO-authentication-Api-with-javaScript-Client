@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Api Services</h2>
+<br>
+<br>
+<div>
+    <label id="LBLResult"></label>
+</div>
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+        <label>User Name: </label><input id="InpUserNameSignIn">
+        <br>
+        <br>
+        <label>Password: </label><input id="InpPasswordSignIn">
+        <br>
+        <br>
+        <button id="BtnSignIn">SignIn</button>
+
+    </div>
+    <div class="column" style="background-color:#bbb;">
+        <label>First Name: </label><input id="fName">
+        <br>
+        <br>
+        <label>Last Name: </label><input id="lName">
+        <br>
+        <br>
+        <label>User Name: </label><input id="uName">
+        <br>
+        <br>
+        <label>Password: </label><input id="password">
+        <br>
+        <br>
+        <label>Email: </label><input id="mail">
+        <br>
+        <br>
+        <label>Phone Number: </label><input id="phone">
+        <br>
+        <br>
+        <button id="BtnSignUp">SignUp</button>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+        <label>Ticket: </label><input id="ticket">
+        <br>
+        <br>
+        <button id="BtnSignOut">SignOut</button>
+    </div>
+    <div class="column" style="background-color:#ddd;">
+        <label>Number one: </label><input id="Num1">
+        <br>
+        <br>
+        <label>Number two: </label><input id="Num2">
+        <br>
+        <br>
+        <label>Ticket: </label><input id="NewTicket">
+        <br>
+        <br>
+        <button id="BtnSum">Sum</button>
+    </div>
+</div>
+
+<script src="Js.js"></script>
+</body>
+</html>
